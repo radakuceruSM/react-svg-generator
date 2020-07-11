@@ -22,7 +22,16 @@
   },
   "homepage": "https://github.com/radakuceruSM/react-svg-generator#readme",
   "dependencies": {
+    "babel-plugin-jsx-to-object": "^1.0.1",
     "glob": "^7.1.6",
+    "jsx-parser": "^1.0.8",
+    "svg-to-jsx": "^1.0.2",
     "yargs": "^15.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
   }
 }

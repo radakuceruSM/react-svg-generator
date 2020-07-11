@@ -4,12 +4,19 @@ const {
 
 const args = require("./args");
 
-const main = () => {
+const {
+    generateComponents
+} = require('./component');
+
+const main = async () => {
     const options = args();
 
-    const dir = getDirectories(options.path, "svg");
+    const directories = getDirectories(options.path, "svg");
 
-    console.log(dir);
+    const result = await generateComponents(directories);
+    console.log(result);
+
+    return result;
 }
 
 module.exports = main();
