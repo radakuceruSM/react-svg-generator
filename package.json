@@ -1,0 +1,28 @@
+{
+  "name": "react-svg-generator",
+  "version": "1.0.0",
+  "description": "SVG component generator for React. It generates importable components, that can be easily used in your project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radakuceruSM/react-svg-generator.git"
+  },
+  "keywords": [
+    "svg",
+    "react",
+    "generator"
+  ],
+  "author": "Radek Kučera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radakuceruSM/react-svg-generator/issues"
+  },
+  "homepage": "https://github.com/radakuceruSM/react-svg-generator#readme",
+  "dependencies": {
+    "glob": "^7.1.6",
+    "yargs": "^15.4.1"
+  }
+}
