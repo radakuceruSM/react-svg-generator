@@ -1,7 +1,7 @@
 const yargs = require('yargs');
 
 const args = () => {
-    yargs.option('color', {
+    yargs.option('colors', {
         alias: "c",
         type: "array",
         default: []
@@ -9,7 +9,7 @@ const args = () => {
 
     yargs.option('sizes', {
         alias: "s",
-        type: "array",
+        type: "string",
         default: []
     });
 
